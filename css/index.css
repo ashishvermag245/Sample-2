@@ -1,0 +1,141 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1540px;
+    padding: 0 50px;
+}
+nav{
+    background-color: transparent;
+}
+.collapse ul li a{
+    margin: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+.collapse ul li a:hover{
+    background-color: transparent;
+    color: rgb(34, 32, 32);
+    border: 1px solid rgb(68, 111, 211);
+}
+
+.hero{
+    background-image: url("../img/Banner1.avif");
+    /* width: 100%; */
+    background-size: cover;
+    object-position: center;
+}
+.hero .hero-container h1{
+    font-family: fangsong;
+    font-size: 40px;
+    color: aliceblue;
+}
+.hero .hero-container p{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: fangsong;
+}
+.banner-2{
+    background-image: url(../img/abstract-white-line-background-wall-illustration-free-vector.webp);
+    background-size: cover;
+    padding: 10px;
+}
+.banner-2 .col-6 .box-1 i{
+    font-size: 50px;
+    color: rgb(22, 80, 103);
+} 
+.banner-2 .col-6 .box-1 h3{
+    font-size: 25px;
+    color: rgb(40, 37, 37);
+}
+.banner-2 .col-6 .box-1 p{
+    width: 260px;
+}
+.banner-3 row{
+    background-color: aliceblue;
+}
+.banner-3 .top-text h2{
+    position: relative;
+}
+.banner-3 .top-text h2::before{
+    content: "";
+    background-image: url(../img/section-title-bg.png)  ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: -1;
+    width: 123px;
+    height: 69px;    
+}
+.banner-3 .service-box-1 img{
+    width: 50px;
+}
+.banner-3 .service-box-1 h2{    
+    font-size: 20px;
+    font-weight: bold;
+}
+.service-box-1{    
+    -webkit-box-shadow: -6px 7px 40px -8px rgb(61 52 52 / 75%); 
+}
+.service-box-1:hover{
+    background-color: rgb(22, 80, 103);
+    color: whitesmoke;
+
+}
+.banner-4{
+    background-color: #f4f9fc;
+}
+.box4{
+    width: 200px;
+}
+.banner-4 .box4 img{
+    width: 50px;
+}
+.banner-4 .box4 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.banner-5{
+    background-image: url(../img/cta-bg.jpg);
+}
+.banner-5 .box5 button{
+    width: 250px;
+}
+.portfolio .top-text2 h2{
+    position: relative;
+}
+.portfolio .top-text2 h2:before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/section-title-bg.png);
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,50%);
+    z-index: -1;
+    width: 123px;
+    height: 69px;
+
+}
+.portfolio ul{
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #ecf5f9;
+    padding: 10px 20px;
+    width: 20%;
+    margin: auto;
+    color: black;    
+}
+.portfolio ul li{
+    list-style: none;    
+}
+.portfolio ul li a{
+    text-decoration: none;
+    padding: 2px 10px;    
+}
+.portfolio ul li a:hover{
+    color: #2f4d5a;
+}
